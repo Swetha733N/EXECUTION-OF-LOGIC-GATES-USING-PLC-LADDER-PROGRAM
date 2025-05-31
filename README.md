@@ -1,12 +1,9 @@
-# EXECUTION-OF-LOGIC-GATES-USING-PLC-LADDER-PROGRAM
-
-
- # NAME :
- # REGISTER NUMBER :
- # DEPARTMENT 
- # YEAR 
-
+ #  EX: 1 EXECUTION-OF-LOGIC-GATES-USING-PLC-LADDER-PROGRAM
  
+ ## DATE:
+ ## NAME :SWETHA N
+ ## REGISTER NUMBER: 212222110050
+
 # Aim:
 To implement and verify the functioning of basic logic gates (AND, OR, NOT, NAND, NOR, XOR) using a PLC ladder program and simulate the outputs.
 
@@ -49,6 +46,59 @@ XOR Gate:
 Function: Outputs HIGH when an odd number of inputs are HIGH.
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.
 # Truth Tables:
+
+
+**AND Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   1    |
+
+**OR Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   1    |
+
+**NOT Gate:**
+| Input | Output |
+|-------|--------|
+|   0   |   1    |
+|   1   |   0    |
+
+**NAND Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   1    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   0    |
+
+
+**NOR Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   1    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   0    |
+
+**XOR Gate:**
+
+| Input A | Input B | Output |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   0    |
  
 # Procedure:
 Setup the PLC Programming Environment:
@@ -79,9 +129,35 @@ XOR Gate: The output should light up when exactly one input is HIGH.
 
 
 # SIMULATION RESULTS 
+### AND GATE:
+![Screenshot 2025-02-27 185557](https://github.com/user-attachments/assets/dc94f8f9-b1cd-4170-9c03-7139dfb7e2cc)
+![Screenshot 2025-02-27 185542](https://github.com/user-attachments/assets/3bd3ffab-0625-430e-bc32-337fb7316457)
+![Screenshot 2025-02-27 185527](https://github.com/user-attachments/assets/5c7e72d3-9bd7-45c8-ba6d-d6e3eb038e8c)
+![Screenshot 2025-02-27 185510](https://github.com/user-attachments/assets/5deb4b27-20e4-4737-a4f2-213d8937b4a8)
 
+### OR GATE
+![Screenshot 2025-02-27 191012](https://github.com/user-attachments/assets/1e55ad84-b812-4bdb-90ff-a505ef10159d)
+![Screenshot 2025-02-27 191032](https://github.com/user-attachments/assets/7195415a-7769-4acb-a052-51de3abebcc1)
+![Screenshot 2025-02-27 191042](https://github.com/user-attachments/assets/fdaaeab5-17f1-4b3b-8238-6fa1c6a675b9)
+![Screenshot 2025-02-27 191132](https://github.com/user-attachments/assets/73f1706c-e076-4eb7-ab2c-e44deacb34c5)
 
-#Results:
+### NOT GATE
+![Screenshot 2025-02-27 192652](https://github.com/user-attachments/assets/7713bde7-9a2d-4cb7-b70f-8bdfab22c585)
+![Screenshot 2025-02-27 192700](https://github.com/user-attachments/assets/7901bf7f-09bb-4211-b557-f88eaf22297d)
+
+### NAND GATE
+![Screenshot 2025-02-27 192355](https://github.com/user-attachments/assets/41708b7b-3d94-4e08-bdd9-1597cb32fe3b)
+![Screenshot 2025-02-27 192345](https://github.com/user-attachments/assets/8bffc154-c88d-4a4a-9a1c-5f5fc27bf4ff)
+![Screenshot 2025-02-27 192404](https://github.com/user-attachments/assets/57591a46-7c69-4bda-aa2d-096e50beea9f)
+![Screenshot 2025-02-27 192415](https://github.com/user-attachments/assets/c6c4b705-3ed6-4e42-8d77-3ed2b4fb2201)
+
+### NOR GATE
+![Screenshot 2025-02-27 191949](https://github.com/user-attachments/assets/9ef0dbef-f3f1-4ac1-ada7-7d5fd314fa05)
+![Screenshot 2025-02-27 191957](https://github.com/user-attachments/assets/78e535f4-bd07-4e78-a6d9-47fbae5ac89b)
+![Screenshot 2025-02-27 192008](https://github.com/user-attachments/assets/7387f28f-b964-43c9-ae64-a153ae778d1d)
+![Screenshot 2025-02-27 192048](https://github.com/user-attachments/assets/ad6210b9-c9bb-4000-a940-9894a8326183)
+
+# Results:
 The ladder logic programs for each logic gate were successfully implemented and simulated.
 The outputs observed matched the expected results as per the truth tables of the respective logic gates.
 This experiment demonstrates the effective use of PLCs in executing digital logic operations, which are fundamental to industrial control systems.
