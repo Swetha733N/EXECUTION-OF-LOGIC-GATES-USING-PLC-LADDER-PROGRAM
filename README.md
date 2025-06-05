@@ -9,11 +9,17 @@ To implement and verify the functioning of basic logic gates (AND, OR, NOT, NAND
 
 # Apparatus Required:
 Programmable Logic Controller (PLC) - A PLC with support for ladder logic programming.
+
 PLC Programming Software - Software like RSLogix, TIA Portal, or CX-Programmer.
+
 Computer System - To run the PLC programming software and perform simulations.
+
 Input Devices - Push buttons or switches to simulate inputs (I/O modules).
+
 Output Devices - LEDs or any indicator to visualize the output of logic gates (I/O modules).
+
 Wires and Connectors - For connecting input/output devices to the PLC.
+
 Power Supply - Appropriate power supply for PLC and peripherals.
 
 
