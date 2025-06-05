@@ -28,29 +28,40 @@ Logic gates are the fundamental building blocks of digital circuits, and they pr
 
 # Basic Logic Gates:
 AND Gate:
-
 Function: Outputs HIGH only when all inputs are HIGH.
+
 Ladder Logic: Represented by two or more normally open contacts in series.
+
 OR Gate:
 
 Function: Outputs HIGH when at least one input is HIGH.
+
 Ladder Logic: Represented by two or more normally open contacts in parallel.
+
 NOT Gate:
 
 Function: Outputs the inverse of the input signal.
+
 Ladder Logic: Represented by a normally closed contact.
+
 NAND Gate:
 
 Function: Outputs LOW only when all inputs are HIGH.
+
 Ladder Logic: An AND gate followed by a NOT gate.
+
 NOR Gate:
 
 Function: Outputs LOW when at least one input is HIGH.
+
 Ladder Logic: An OR gate followed by a NOT gate.
+
 XOR Gate:
 
 Function: Outputs HIGH when an odd number of inputs are HIGH.
+
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.
+
 # Truth Tables:
 
 
